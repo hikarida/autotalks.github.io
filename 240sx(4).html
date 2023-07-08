@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nissan 240SX</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="logo.png" type="image/png">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+    body{
+    margin: 50px;
+    padding: 0;
+    }
+
+    a, a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header{
+    width: 100%;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.header li{
+    display: inline-block;
+}
+
+.header .nav{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+}
+
+.header .nav .logo{
+    margin-left: 0px;
+}
+
+.header .nav .menu ul li{
+    margin-right: 15px;
+}
+
+.header .nav .menu ul li a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    opacity: 0.6;
+}
+
+.header .nav .menu ul li a.active{
+    opacity: 1;
+}
+
+.header .nav .menu ul li a:hover{
+    opacity: 1;
+}
+
+.header .nav .social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.header .nav .social-media ul li i{
+    color: black;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 5px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 19px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.header .nav .social-media ul li i:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+       h1{
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: normal;
+        margin-left: 25px;
+        text-transform: capitalize;
+       }
+
+       h3{
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: normal;
+        margin-left: 10px;
+        text-transform: capitalize;
+       }
+
+       .content .car-container .car-description p{
+        margin-left: 10px;
+        margin-right: 500px;
+        font-size: 17px;
+       }
+
+       .content .car-container .car-details ul li{
+        font-size: 17px;
+       }
+
+       .content .car-container .car-images{
+        --gap: 5px;
+        --num-cols: 4;
+        --row-height: 300px;
+        box-sizing: border-box;
+        padding: var(--gap);
+        display: grid;
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        grid-auto-rows: var(--row-height);
+        gap: var(--gap);
+       }
+
+       .content .car-container .car-images img{
+        width: 100%;
+        height: 100%;
+        border-radius: 13px;
+        object-fit: cover;
+        transition: 0.5s;
+       }
+
+       .content .car-container .car-images img:hover{
+        transform: scale(1.03);
+       }
+
+       .content .car-container .car-images-img-col-2{
+        grid-column: span 2;
+       }
+
+       .content .car-container .car-images-img-row-2{
+        grid-row: span 2;
+       }
+
+       @media screen and (max-width: 1024px) {
+        .content .car-container .car-images{
+            --num-cols: 2;
+            --row-height: 200px;
+        }
+       }
+
+       .content .car-container .car-info ul{
+        margin-right: 900px;
+        list-style: none;
+        border-style: solid;
+        border-color: silver;
+        border-width: 2px;
+        border-radius: 10px;
+        padding: 15px;
+       }
+
+       .content .car-container .car-info .label{
+        font-weight: bold;
+        display: inline-block;
+        width: 180px;
+       }
+
+       .content .car-container .car-info .value{
+        font-style: italic
+       }
+
+    </style>
+</head>
+<body>
+    <section class="header" id="header">
+        <div class="nav">
+            <div class="logo">
+                <img src="AutoTalks Logo.png" width="175" height="60">
+            </div>
+            <div class="menu">
+                <ul>
+                 <li><a href="AutoTalks.html" target="_self">Home</a></li>
+                 <li><a href="JDM CARS.html" target="_self">JDM Cars</a></li>
+                 <li><a href="PLACEMENT.html" target="_self">Placement</a></li>
+                 <li><a href="TURBO.html" target="_self">Turbo and Supercharger</a></li>
+                 <li><a href="ENGINES.html" target="_self">Engines</a></li>
+                 <li><a href="about.html" target="_self">About</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <ul>
+                 <li><a href="https://www.facebook.com/profile.php?id=100094503637260" target="_self"><i class="fa fa-facebook"></i></a></li>
+                 <li><a href="https://twitter.com/autotalksph?t=fkaP7nmj85UFHZIM-g-xwA&s=09" target="_self"><i class="fa fa-twitter"></i></a></li>
+                 <li><a href="https://instagram.com/autotalksph?igshid=MzNlNGNkZWQ4Mg==" target="_self"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>   
+        </div>
+    </section>
+<h1 class="car-name">Nissan 240SX</h1>
+    <section class="content" id="content">
+        <div class="car-container">
+            <div class="car-images">
+                <img class="car-images-img-col-2 car-images-img-row-2" src="sx1.jpg" alt="Car 1">
+                <img src="sx2.jpg" alt="Car 2">
+                <img src="sx3.jpg" alt="Car 3">
+                <img src="sx4.jpg" alt="Car 4">
+                <img src="sx5.jpg" alt="Car 5">
+            </div>
+            <div class="car-info">
+                <h3>Vehicle Highlights</h3>
+                <ul>
+                 <li><span class="label">Make:</span><span class="value">Nissan</span></li>
+                 <li><span class="label">Model:</span><span class="value">240SX</span></li>
+                 <li><span class="label">Year:</span><span class="value">1989</span></li>
+                 <li><span class="label">Mileage:</span><span class="value">254,749 kilometers</span></li>
+                 <li><span class="label">Price:</span><span class="value">$18,500</span></li>
+                </ul>
+            </div>
+            <div class="car-description">
+                <h3>Description</h3>
+                 <p>Introducing the awe-inspiring 240SX, a legendary masterpiece that effortlessly blends performance, style, and pure driving pleasure. Prepare to embark on a journey where exhilaration meets beauty, where every curve and corner ignites a fiery passion within your soul. Under the hood lies a heart that beats with unbridled power. This mighty 240SX is equipped with a potent engine that roars to life, delivering an adrenaline-fueled performance that will leave you breathless. Its raw energy is channeled through a smooth-shifting transmission, offering seamless gear changes and a thrilling driving experience. So, if you're ready to unleash your inner thrill-seeker and make a statement that resonates with automotive enthusiasts around the world, the 240SX is the embodiment of excitement and style. It's time to seize the opportunity and experience the sheer exhilaration that only this extraordinary machine can offer. Are you ready to ignite your passion?</p>
+            </div>
+            <div class="car-details">
+                <h3>Exterior and Interior Aftermarket</h3>
+                <ul>
+                 <li>ARC Intercooler</li>
+                 <li>ARC Oil Cooler</li>
+                 <li>Twin Tial Blow off Valves</li>
+                 <li>HKS Headgasket</li>
+                 <li>HKS Garrett Twin Turbos GT3037 .57 Trim</li>
+                 <li>HKS Fuel Rail</li>
+                 <li>Nismo Motor Mounts</li>
+                 <li>Nismo Transmission Bushings</li>
+                 <li>Tial Wastegates </li>
+                 <li>OEM Coil Packs </li>
+                 <li>NGK Spark Plugs</li>
+                 <li>Koyo Radiator</li>
+                 <li>RB25DET Transmission</li>
+                 <li>Phase2Motortrend Coolant Overflow</li>
+                 <li>GReddy Oil Filter Relocation</li>
+
+
+                </ul>
+                <h3>Modifications</h3>
+                <ul>
+                 <li>GReddy Profec B Spec II Boost Controller</li>
+                 <li>GReddy Peak Hold Electronic Boost Gauge</li>
+                 <li>AEM Wideband W/3D Printed Pod</li>
+                 <li>Sparco Adjustable Seats</li>
+                 <li>Sparco Steering Wheel</li>
+                 <li>White LED Dash Lights</li>
+                 <li>Stainless Steel Brake Lines</li>
+                 <li>Sikky Endlinks</li>
+                 <li>Tien Coilovers</li>
+                 <li>Tien Pillow ball Tension Rods</li>
+                 <li>Tien Pillow ball Upper Mounts</li>
+                 <li>Nismo 2-Way Limited Slip Differential</li>
+
+            
+
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
